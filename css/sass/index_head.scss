@@ -1,0 +1,289 @@
+.head_tem {
+ /* 顶部导航 */
+    #topNavWrap {
+        background: #000;
+        border-bottom: 1px solid #ededee;
+        color: #999;
+        #topNav {
+            height: 30px;
+            line-height: 30px;
+        }
+        #topNav_L > .login {
+            margin-left: 16px;
+        }
+        #topNav_L > .interval {
+            padding: 0 10px;
+        }
+        #topNav_L2 > a {
+            padding-left: 30px;
+        }
+        #topNavRight > li{
+            float: left;
+            a {
+                padding: 0 14px 0 8px;
+            }
+            .arrBox {
+                position: relative;
+                z-index: 202;
+                border: 1px solid transparent;
+                left: -3px;
+                top: -1px;
+                a {
+                    position: relative;
+                    zoom: 1;
+                    padding: 0 24px 0 16px !important;
+                }
+                .arr {
+                    position: absolute;
+                    right: 14px;
+                    top: 50%;
+                    margin-top: -2px;
+                    width: 0;
+                    height: 0;
+                    font-size: 0;
+                    line-height: 0;
+                    border-color: #999 transparent transparent;
+                    border-style: solid dashed dashed;
+                    border-width: 4px 4px 0;
+                    transition: transform 0.2s ease-in;
+                }
+            }
+        }
+    }
+/* 头部搜索 */
+    #docHeadWrap {
+        background: #fff;
+        #docHead {
+            position: relative;
+            height: 100px;
+            .logo {
+                position: absolute;
+                left: 0;
+                top: 20px; 
+                width: 330px;
+                height: 65px;
+                display: block;
+                outline: none;
+                cursor: pointer;
+                background: url(../images/log/log.png) no-repeat left center;
+            } 
+            .docHead_search {
+                position: absolute;
+                left: 343px;
+                top: 24px;
+                .searchBox {
+                    width: 510px;
+                    height: 40px;
+                    padding-left: 1px;
+                    background-color: #ff2337;
+                    border-radius: 40px;
+                .iptWrap {
+                    float: left;
+                    margin: 2px 1px;
+                    padding: 6px 39px 6px 30px;
+                    background-color: #fff;
+                    border-radius: 24px 0 0 24px;
+                    .docHeadSearchInput {
+                        width: 410px;
+                        height: 24px;
+                        line-height: 24px;
+                        border: 0;
+                        font-size: 13px;
+                        outline: none;
+                    }
+                }
+                 .searchBtn {
+                    width: 60px;
+                    height: 40px;
+                    background: #ff2337;
+                    background-image: linear-gradient(to left,#ff2e64,#ff0003);
+                    border-radius: 40px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    .btnBg {
+                       background: url(../images/icon/search.png) no-repeat center;
+                       display: inline-block;
+                       height: 40px;
+                       width: 50px;
+                       font-size: 19px;
+                       line-height: 40px;
+                       color: #fff;
+                       text-align: center;
+                       cursor: pointer;
+                       position: absolute;
+                       top: 0;
+                       right: 5px;
+                   }
+                }
+                 .searchIcon {
+                    position: absolute;
+                    left: 10px;
+                    top: 13px;
+                    width: 14px;
+                    height: 14px;
+                    background: url(../images/icon1.png) no-repeat;
+                    background-position: -466px -667px;
+                    display: inline-block;
+                }
+                }
+                .docHead_nav {
+                    line-height: 22px;
+                    margin-top: 2px;
+                    width: 461px;
+                    height: 22px;
+                    overflow: hidden;
+                    li {
+                        float: left;
+                        white-space: nowrap;
+                        margin-left: 30px;
+                    }
+                }
+            }
+            .shoppingCart {
+                top: 24px;
+                color: #333;
+                text-decoration: none;
+                display: block;
+                position: absolute;
+                right: 76px;
+                width: 106px;
+                height: 36px;
+                background-color: #fff;
+                line-height: 36px;
+                font-size: 14px;
+                text-align: center;
+                border-radius: 36px;
+                border: 2px solid #ff1e32;
+                .cartIcon {
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 2px;
+                    margin-bottom: -5px;
+                    background: url(../images/icon/cart.png) no-repeat top left;
+                }
+                .cartName {
+                    display: inline-block;
+                    padding-left: 6px;
+                    background: none;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+
+/* 头部导航 */
+    #topTabNavWarp {
+        background: #fff;
+        border-bottom: 1px solid #ccc;
+        #topTabNav {
+            height: 40px;
+            line-height: 40px;
+        }
+        #navList {
+            height: 40px;
+            width: 164px;
+            background: #f00;
+            background: linear-gradient(to right,#f00,#ff3264);
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            padding-left: 0;
+            overflow: visible;
+            .navListTitle {
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
+                width: 164px;
+                text-align: left;
+                border-bottom: 1px solid #ff5160;
+                .titleIcon {
+                    display: inline-block;
+                    margin: 0 24px 0 15px;
+                    width: 15px;
+                    height: 12px;
+                    overflow: hidden;
+                }
+                .titleIcon > i {
+                    width: 15px;
+                    height: 0;
+                    border-top: 2px solid #ddd;
+                    display: block;
+                    margin-bottom: 3px;
+                }
+                span {
+                    line-height: 40px;
+                    text-align: left;
+                }
+            }
+            .listMainBox {
+                position: absolute;
+                .listMain {
+                    height: 46px;
+                    line-height: 46px;
+                    background: linear-gradient(to right,#f00,#ff3264);
+                    padding-left: 10px;
+                    width: 151px;
+                    cursor: pointer;
+                    text-align: left;
+                    padding-right: 3px;
+                    .icon {
+                        width: 20px;
+                        height: 20px;
+                        vertical-align: middle;
+                        padding: 0 20px 0 4px;
+                    }
+                    .listCont {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 70px;
+                        height: 30px;
+                        line-height: 30px;
+                        white-space: nowrap;
+                    }
+                    .Down_arrow {
+                        display: inline-block;
+                        vertical-align: middle;
+                        color: #ff96ad;
+                        font-size: 19px;
+                        width: 16px;
+                    }
+                    .bottom_line {
+                        display: block;
+                        position: relative;
+                        bottom: 2px;
+                        left: -7px;
+                        width: 154px;
+                        height: 1px;
+                        background: #ff5160;
+                        margin-top: -1px;
+                    }
+                }
+            }
+        }
+        .navBox {
+            position: relative;
+            height: 40px;
+            float: left;
+            padding-left: 25px;
+            .navItem {
+                float: left;
+                height: 40px;
+                overflow: hidden;
+                padding: 0 20px;
+                a {
+                    display: block;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: #333;
+                }
+                .active {
+                    background: #fff;
+                    color: #ff1e32;
+                }
+            }
+        }
+    }
+}

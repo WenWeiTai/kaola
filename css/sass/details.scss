@@ -1,0 +1,235 @@
+$fontSize : 12px;
+$color : #333;
+.details {
+    .content {
+        .details_box {
+            margin: 20px 0;
+            .showImg_box {
+                width: 400px;
+                .showImg {
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    border: 1px solid #eee;
+                    width: 400px;
+                    height: 400px;
+                    overflow: hidden;
+                    cursor: crosshair;
+                    .big_pic {
+                        width: 400px;
+                        height: 400px;
+                        vertical-align: middle;
+                        display: inline-block;
+                    }
+                }
+                .small_pic {
+                    padding: 20px 0;
+                    height: 70px;
+                    width: 330px;
+                    .fl {
+                        border: 1px solid #eee;
+                        margin-right: 15px;
+                    }
+                }
+            }
+            .cont_box {
+                width: 658px;
+                margin-left: 30px;
+                .title {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: $color;
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                }
+                .priceBox {
+                    background-color: #f9f9f9;
+                    margin-bottom: 12px;
+                    margin-bottom: 12px;
+                    border-bottom: 1px dotted #ddd;
+                    .price {
+                        padding-top: 5px;
+                        padding-left: 15px;
+                        border-top: 1px dotted #ddd;
+                        font-size: 0;
+                        .selling {
+                            width: 75px;
+                            margin-left: 10px;
+                            font-size: 12px;
+                            line-height: 26px;
+                            margin: 8px 0;
+                            vertical-align: 4px;
+                            display: inline-block;
+                            color: #666;
+                        }
+                        .sales {
+                            margin-left: 71px;
+                            .sales_l {
+                                font-size: 26px;
+                                color: #e31436;
+                                font-weight: bold;
+                                vertical-align: baseline;
+                                line-height: 1;
+                                margin: 8px 0;
+                            }
+                            .sales_c {
+                                display: inline-block;
+                                margin-left: 5px;
+                                background-color: #f68587;
+                                height: 18px;
+                                line-height: 18px;
+                                padding: 0 5px;
+                                color: #fff;
+                                font-size: 12px;
+                                vertical-align: 5px;
+                                border-radius: 2px;
+                            }
+                            .sales_r {
+                                vertical-align: 4px;
+                                font-size: 12px;
+                                color: #999;
+                                margin-left: 14px;
+                                margin-bottom: 8px;
+                            }
+                        }
+                    }
+                    .vipCard {
+                        margin-top: -2px;
+                        margin-bottom: 8px;
+                        .msg {
+                            line-height: 20px;
+                            margin-left: 90px;
+                            .vPic {
+                                display: inline-block;
+                                vertical-align: middle;
+                                width: 51px;
+                                height: 14px;
+                                margin-right: 3px;
+                            }
+                            .txt {
+                                display: inline-block;
+                                vertical-align: middle;
+                                font-size: 12px;
+                                color: #333;
+                            }
+                            .dredge {
+                                display: inline-block;
+                                vertical-align: middle;
+                                margin-left: 20px;
+                                color: #52b8f1;
+                                font-size: 12px;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+                .taxes_box {
+                    padding-top: 5px;
+                    padding-left: 15px;
+                    .taxes_l {
+                        width: 75px;
+                        margin-left: 10px;
+                        font-size: 12px;
+                        line-height: 26px;
+                        margin: 2px 0;
+                        vertical-align: 4px;
+                        display: inline-block;
+                        color: #666;
+                    }
+                    .taxe_r {
+                        font-size: 12px;
+                        line-height: 26px;
+                        margin: 2px 0;
+                        color: #666;
+                        .regulation {
+                            padding-left: 20px;
+                        }
+                        #nomagin {
+                            margin: 0;
+                            a {
+                                height: 26px;
+                            }
+                            #a_width {
+                                width: 48px;
+                                text-align: center;
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+                .checkColorBox {
+                    .checkColor_title {
+                        height: 54px;
+                        line-height: 54px;
+                    }
+                    .checkColor {
+                        ul {
+                            .imgBox {
+                                float: left;
+                                display: inline;
+                                background-color: #fff;
+                                margin-right: 7px;
+                                position: relative;
+                                height: 30px;
+                                white-space: nowrap;
+                                height: 58px;
+                                a {
+                                    height: 50px;
+                                    width: 50px;
+                                    padding: 0;
+                                    border: 1px solid #ccc;
+                                    display: inline-block;
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .btns {
+                    padding-top: 5px;
+                    .btn_buy {
+                        display: inline-block;
+                        width: 156px;
+                        border: 2px solid #d41c44;
+                        background-color: #ffeced;
+                        color: #d31b44;
+                        line-height: 46px;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 18px;
+                        font-weight: bold;
+                        margin-right: 15px;
+                    }
+                    .btn_join {
+                        display: inline-block;
+                        width: 180px;
+                        height: 50px;
+                        line-height: 50px;
+                        color: #fff;
+                        background-color: #e31436;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 18px;
+                        font-weight: bold;
+                        .demo_case-gouwucheman {
+                            margin-right: 10px;
+                        }
+                    }
+                    .collect {
+                        padding-left: 50px;
+                        font-size: 14px;
+                        color: #6f6f6f;
+                        .demo_case-shoucang {
+                            margin-right: 5px;
+                            color: #e31436;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

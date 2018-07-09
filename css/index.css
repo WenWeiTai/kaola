@@ -1,0 +1,1025 @@
+
+ /* 顶部导航 */
+ #topNavWrap {
+    background: #000;
+    border-bottom: 1px solid #ededee;
+    color: #999;
+ }
+ #topNav {
+    height: 30px;
+    line-height: 30px;
+ }
+ #topNav_L > .login {
+    margin-left: 16px;
+ }
+ #topNav_L > .interval {
+    padding: 0 10px;
+ }
+ #topNav_L2 > a {
+    padding-left: 30px;
+ }
+ #topNavRight > li{
+     float: left;
+ }
+ #topNavRight > li > a {
+    padding: 0 14px 0 8px;
+ }
+ #topNavRight > li > .arrBox {
+    position: relative;
+    z-index: 202;
+    border: 1px solid transparent;
+    left: -3px;
+    top: -1px;
+ }
+ #topNavRight > li > .arrBox > a {
+    position: relative;
+    zoom: 1;
+    padding: 0 24px 0 16px !important;
+ }
+ #topNavRight > li > .arrBox > .arr {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    margin-top: -2px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-color: #999 transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 4px 4px 0;
+    transition: transform 0.2s ease-in;
+ }
+ /* 头部搜索 */
+ #docHeadWrap {
+ 	background: #fff;
+ }
+ #docHead {
+    position: relative;
+ 	height: 100px;
+ }
+ #docHead > .logo {
+    position: absolute;
+    left: 0;
+    top: 20px; 
+    width: 330px;
+    height: 65px;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    background: url(../images/log/log.png) no-repeat left center;
+ } 
+ #docHead > .docHead_search {
+    position: absolute;
+    left: 343px;
+    top: 24px;
+ }
+ #docHead > .docHead_search > .searchBox {
+    width: 510px;
+    height: 40px;
+    padding-left: 1px;
+    background-color: #ff2337;
+    border-radius: 40px;
+ }
+ #docHead > .docHead_search > .searchBox > .iptWrap {
+    float: left;
+    margin: 2px 1px;
+    padding: 6px 39px 6px 30px;
+    background-color: #fff;
+    border-radius: 24px 0 0 24px;
+ }
+ #docHead > .docHead_search > .searchBox > .iptWrap > .docHeadSearchInput {
+    width: 410px;
+    height: 24px;
+    line-height: 24px;
+    border: 0;
+    font-size: 13px;
+    outline: none;
+ }
+ #docHead > .docHead_search > .searchBox >  .searchBtn {
+    width: 60px;
+    height: 40px;
+    background: #ff2337;
+    background-image: linear-gradient(to left,#ff2e64,#ff0003);
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+ #docHead > .docHead_search > .searchBox >  .searchBtn > .btnBg {
+     background: url(../images/icon/search.png) no-repeat center;
+    display: inline-block;
+    height: 40px;
+    width: 50px;
+    font-size: 19px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 5px;
+ }
+ #docHead > .docHead_search > .searchBox >  .searchIcon {
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    width: 14px;
+    height: 14px;
+    background: url(../images/icon1.png) no-repeat;
+    background-position: -466px -667px;
+    display: inline-block;
+ }
+ #docHead > .docHead_search > .docHead_nav {
+    line-height: 22px;
+    margin-top: 2px;
+    width: 461px;
+    height: 22px;
+    overflow: hidden;
+ }
+ #docHead > .docHead_search > .docHead_nav li {
+    float: left;
+    white-space: nowrap;
+    margin-left: 30px;
+ }
+ #docHead > .shoppingCart {
+    top: 24px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    right: 76px;
+    width: 106px;
+    height: 36px;
+    background-color: #fff;
+    line-height: 36px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 36px;
+    border: 2px solid #ff1e32;
+ }
+ #docHead > .shoppingCart > .cartIcon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    margin-bottom: -5px;
+    background: url(../images/icon/cart.png) no-repeat top left;
+ }
+ #docHead > .shoppingCart > .cartName {
+    display: inline-block;
+    padding-left: 6px;
+    background: none;
+    vertical-align: middle;
+ }
+/* 头部导航 */
+#topTabNavWarp {
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+}
+#topTabNav {
+    height: 40px;
+    line-height: 40px;
+}
+#navList {
+    height: 40px;
+    width: 164px;
+    background: #f00;
+    background: linear-gradient(to right,#f00,#ff3264);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 0;
+    overflow: visible;
+}
+#navList > .navListTitle {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 164px;
+    text-align: left;
+    border-bottom: 1px solid #ff5160;
+}
+#navList > .navListTitle > .titleIcon {
+    display: inline-block;
+    margin: 0 24px 0 15px;
+    width: 15px;
+    height: 12px;
+    overflow: hidden;
+}
+#navList > .navListTitle > .titleIcon > i {
+    width: 15px;
+    height: 0;
+    border-top: 2px solid #ddd;
+    display: block;
+    margin-bottom: 3px;
+}
+#navList > .navListTitle > span {
+    line-height: 40px;
+    text-align: left;
+}
+#navList > .listMainBox {
+    position: absolute;
+}
+#navList > .listMainBox > .listMain {
+    height: 46px;
+    line-height: 46px;
+    background: linear-gradient(to right,#f00,#ff3264);
+    padding-left: 10px;
+    width: 151px;
+    cursor: pointer;
+    text-align: left;
+    padding-right: 3px;
+}
+#navList > .listMainBox > .listMain > .icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding: 0 20px 0 4px;
+}
+#navList > .listMainBox > .listMain > .listCont {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+#navList > .listMainBox > .listMain > .Down_arrow {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ff96ad;
+    font-size: 19px;
+    width: 16px;
+}
+#navList > .listMainBox > .listMain > .bottom_line {
+    display: block;
+    position: relative;
+    bottom: 2px;
+    left: -7px;
+    width: 154px;
+    height: 1px;
+    background: #ff5160;
+    margin-top: -1px;
+}
+.navBox {
+    position: relative;
+    height: 40px;
+    float: left;
+    padding-left: 25px;
+}
+.navBox > .navItem {
+    float: left;
+    height: 40px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.navBox > .navItem > a {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+.navBox > .navItem > .active {
+    background: #fff;
+    color: #ff1e32;
+}
+/* 轮播图广告 */
+#bannerWrap {
+	/* position: relative; */
+	min-height: 505px;
+    background: #f3f3f3;
+    width: 100%;
+}
+#banner img {
+    width: 100%;
+    display: block;
+    width: 1920px;
+    height: 505px;
+}
+.bannerBottom {
+	position: relative;
+    margin-top: -45px;
+    margin-bottom: 20px;
+    height: 45px;
+    background-color: rgba(0,0,0,0.3);
+}
+.bannerBottom > .bottomCont > .bottomCont_l,.bannerBottom > .bottomCont > .bottomCont_r{
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    color: #fff;
+}
+.bannerBottom > .bottomCont > .bottomCont_l > a {
+    float: left;
+    margin-right: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+.bannerBottom > .bottomCont > .bottomCont_l > a > i {
+    margin-right: 7px;
+    font-size: 22px;
+    vertical-align: -3px;
+}
+.bannerBottom > .bottomCont > .bottomCont_r > a {
+    color: #fff;
+}
+.bannerBottom > .bottomCont > .bottomCont_r > .phoneIcon {
+    margin-right: 5px;
+    font-size: 15px;
+    vertical-align: -2px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+    background: url(../images/icon/phone.png) no-repeat center;
+}
+/* 4图导航 */
+#mainTop {
+	/* padding-top: 20px; */
+	margin-bottom: 40px;
+}
+#mainTop > .mainTopCont > .mainTopCont_item {
+    margin-right: 10px;
+}
+/* 主体内容 */
+#mainBodyWarp {
+	width: 1100px;
+	margin: 0 auto;
+    min-height: 600px;
+    padding:0; /*解决浏览器自己生成左边padding：40*/
+    padding-bottom: 80px;
+}
+#mainBody > .bodyTopBox {
+    margin-bottom: 40px;
+}
+#mainBody > .bodyTopBox > .bodyTopTitle {
+    position: relative;
+    font-size: 14px;
+    height: 74px;
+    padding-top: 25px;
+    border-top: 1px solid #e9e9e9;
+    margin: 0;
+    box-sizing: border-box;
+}
+#mainBody > .bodyTopBox > .bodyTopTitle > .topTitle {
+    margin-right: 10px;
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+}
+#mainBody > .bodyTopBox > .bodyTopTitle > a {
+    position: absolute;
+    top: 26px;
+    right: 0px;
+    color: #999;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox {
+    border-top: 1px solid #eaeaea;
+    margin-right: -1px;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_l {
+    float: left;
+    width: 840px;
+    border-left: 1px solid #eaeaea;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_l > .bodyTopContBox_l__list{
+    position: relative;
+    float: left;
+    width: 419px;
+    height: 189px;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #fff;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_l > .bodyTopContBox_l__list > .pic {
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-right: -188px;
+    width: 188px;
+    height: 188px;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_l > .bodyTopContBox_l__list > .detail {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    width: 205px;
+    height: 188px;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_l > .bodyTopContBox_l__list > .detail > .detailTile {
+    margin: 16px 0 6px;
+    height: 21px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_l > .bodyTopContBox_l__list > .detail > .detailTile > a {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_l > .bodyTopContBox_l__list > .detail > .introduce {
+    overflow: hidden;
+    height: 36px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_l > .bodyTopContBox_l__list > .detail > .introduce > a {
+    line-height: 16px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+}
+.price {
+    margin: 0 0 33px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff1e32;
+}
+.price > b {
+    font-size: 20px;
+    font-weight: normal;
+}
+.price > span {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #999;
+}
+.price > del {
+    font-size: 14px;
+    font-weight: normal;
+    color: #999;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_l > .bodyTopContBox_l__list > .detail > .bar {
+    position: relative;
+    width: 90px;
+    height: 4px;
+    line-height: 0;
+    margin-top: -2px;
+    text-align: left;
+    font-size: 12px;
+    color: #ff1e32;
+    overflow: hidden;
+    background: #e8e8e8;
+    border-radius: 4px;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_l > .bodyTopContBox_l__list > .detail > .surplus {
+    margin-top: 5px;
+    color: #999;
+    font-size: 14px;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_l > .bodyTopContBox_l__list > .detail > .btn {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ff1e32;
+    text-align: center;
+    font-size: 14px;
+    color: #ff1e32;
+    text-decoration: none;
+    border-radius: 36px;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_r {
+    float: right;
+    width: 260px;
+    height: 380px;
+}
+#mainBody > .bodyTopBox > .bodyTopContBox > .bodyTopContBox_r > a > img {
+    width: 260px;
+    height: 380px;
+    position: relative;
+    left: -1px;
+}
+#mainBody > .bodyTop2 > .itemBox{
+    width: 1100px;
+    overflow: hidden;
+}
+#mainBody > .bodyTop2 > .itemBox > .itemCont {
+    margin: 0 -10px;
+    height: 768px;
+    overflow: hidden;
+    box-shadow: none;
+    text-align: center;
+}
+#mainBody > .bodyTop2 > .itemBox > .itemCont > .itm {
+    float: left;
+    width: 260px;
+    height: 384px;
+    font-size: 12px;
+    border-width: 0 0 1px 1px;
+    box-sizing: border-box;
+    margin: 0 10px;
+}
+#mainBody > .bodyTop2 > .itemBox > .itemCont > .itm > .itmPic {
+    display: block;
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    padding: 39px;
+}
+#mainBody > .bodyTop2 > .itemBox > .itemCont > .itm > .itmCont {
+    margin: 7px 0 7px 0;
+    width: 260px;
+    height: 45px;
+    line-height: 24px;
+    text-align: left;
+    overflow: hidden;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 30px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+}
+#mainBody > .bodyTop2 > .itemBox > .itemCont > .itm > .align_left {
+    text-align: left;
+    margin:0;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box {
+    height: 355px;
+    overflow: hidden;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_l {
+    position: relative;
+    float: left;
+    margin-right: -220px;
+    width: 219px;
+    overflow: hidden;
+    border-right: 1px solid #e9e9e9;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_l > .bodyTop3_l_Box{
+    position: relative;
+    width: 219px;
+    height: 355px;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_l > .bodyTop3_l_Box > .itm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 219px;
+    height: 100%;
+    text-align: center;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_l > .bodyTop3_l_Box > .itm > a > img {
+    width: 219px;
+    height: 219px;
+    vertical-align: middle;
+    display: inline-block;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_l > .bodyTop3_l_Box > .itm > .bg {
+    height: 136px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_l > .bodyTop3_l_Box > .itm > .bg > img {
+    filter: blur(8px);
+    margin-top: -20%;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_l > .bodyTop3_l_Box > .itm > .txt {
+    position: relative;
+    height: 136px;
+    background-color: #151515;
+    color: #fff;
+    z-index: 12;
+    opacity: 0.8;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_l > .bodyTop3_l_Box > .itm > .txt > .name {
+    margin: 0 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_l > .bodyTop3_l_Box > .itm > .txt > .fontS {
+    padding-top: 41px;
+    padding-bottom: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_l > .bodyTop3_l_Box > .itm > .txt > .intro {
+    font-size: 14px;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_r {
+    float: left;
+    margin: 0 -1px 0 220px;
+    border-top: 1px solid #e9e9e9;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_r > .itm {
+    position: relative;
+    float: left;
+    width: 219px;
+    height: 176px;
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    overflow: hidden;
+    background: #fff;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_r > .itm > .info {
+
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_r > .itm > .info > img {
+    display: block;
+    margin: 12px auto 0;
+    width: 120px;
+    height: 120px;
+}
+#mainBody > .bodyTop3 > .bodyTop3Box > .bodyTop3_r > .itm > .info > p {
+    margin: 10px -90px 0;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* 下 */
+#mainBody > .bodyMainList > .mainListBox > .title {
+    height: 74px;
+    padding-top: 25px;
+    border-top: 1px solid #e9e9e9;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #999;
+    position: relative;
+}
+#mainBody > .bodyMainList > .mainListBox > .title > .title_l {
+    margin-right: 20px;
+}
+#mainBody > .bodyMainList > .mainListBox > .title > .title_l > span {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+    line-height: 32px;
+}
+#mainBody > .bodyMainList > .mainListBox > .title > .title_c {
+    position: relative;
+    top: 3px;
+    font-size: 14px;
+    color: #999;
+    line-height: 32px;
+}
+#mainBody > .bodyMainList > .mainListBox > .title > .title_c > .first {
+    margin-right: 14px;
+}
+#mainBody > .bodyMainList > .mainListBox > .title > .title_c > .last {
+    margin-right: 24px;
+}
+#mainBody > .bodyMainList > .mainListBox > .title > .title_r {
+    position: absolute;
+    right: 0;
+    top: 24px;
+    font-size: 14px;
+    color: #999;
+    line-height: 32px;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont {
+    background: #fff;
+    border-left: 0;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_l {
+    position: relative;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_l > .cont_l_cont {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_l > .cont_l_cont > li {
+    float: left;
+    margin: 0 18px 8px 0;
+    width: 82px;
+    height: 42px;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_l > .cont_l_cont > li >.item {
+    display: block;
+    height: 18px;
+    padding: 11px 0;
+    overflow: hidden;
+    font-size: 12px;
+    color: #333;
+    border-radius: 40px;
+    background: #fff;
+    border: 1px solid #eee;
+    width: 80px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_l > .cont_l_cont > li >.item > .txt {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 82px;
+    overflow: hidden;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_c {
+    width: 550px;
+    border: 1px solid #e9e9e9;
+    border-width: 1px 0 1px 0;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_c > .cont_c_cont > .item{
+    float: left;
+    text-align: center;
+    border: 1px solid #e9e9e9;
+    border-width: 0 1px 1px 0;
+    width: 274px;
+    height: 269px;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_c > .cont_c_cont > .item > .itemCont {
+    display: block;
+    padding: 30px 0 0;
+    height: 200px;
+    width: 274px;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_c > .cont_c_cont > .item > .itemCont > .title {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #333;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_c > .cont_c_cont > .item > .itemCont > .intro {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 10px 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #666;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_c > .cont_c_cont > .item > .itemCont > .pic {
+    background: #fff;
+    vertical-align: middle;
+    display: inline-block;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_c > .cont_c_cont > .noborder_b {
+    border-bottom: 0;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_r {
+    width: 219px;
+    border: 1px solid #e9e9e9;
+    border-width: 0 1px 1px 0;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_r > .title {
+    font-size: 16px;
+    line-height: 58px;
+    padding: 0 0 0 10px;
+    color: #333;
+    font-weight: bold;
+    height: 58px;
+    border: 1px solid #e9e9e9;
+    border-width: 1px 1px 1px 0;
+    position: relative;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_r > .listBox {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_r > .listBox > .list {
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_r > .listBox > .list > .item {
+    border-bottom: 1px dotted #e9e9e9;
+    padding: 27px 14px 0 0;
+    height: 92px;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_r > .listBox > .list > .item > .itemCont {
+    position: relative;
+    float: left;
+    margin: 0 7px 0 4px;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_r > .listBox > .list > .item > .itemCont > .pic {
+    vertical-align: middle;
+    display: inline-block;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_r > .listBox  > .list > .item > .intro {
+    white-space: normal;
+    word-wrap: break-word;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_r > .listBox  > .list > .item > .intro > .txt {
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+    font-size: 100%;
+    font-weight: normal;
+}
+#mainBody > .bodyMainList > .mainListBox > .cont > .cont_r > .listBox  > .list > .item > .intro > .price {
+    margin: 6px 0 0;
+    font-size: 18px;
+    color: #ff1e32;
+}
+#mainBody > .bodyMainList > .mainListBox > .hot {
+    margin: 20px 0 40px;
+    border: 1px solid #eaeaea;
+    line-height: 167px;
+    background: #fff;
+}
+#mainBody > .bodyMainList > .mainListBox > .hot > .title{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    text-indent: 20px;
+    line-height: 48px;
+    height: 48px;
+    border-bottom: 1px solid #eaeaea;
+}
+#mainBody > .bodyMainList > .mainListBox > .hot > .list {
+    margin-right: -1px;
+    width: 1111px;
+}
+#mainBody > .bodyMainList > .mainListBox > .hot > .list > .pic {
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 219px;
+    height: 167px;
+    text-align: center;
+    border-left: 1px solid #e9e9e9;
+}
+#mainBody > .bodyMainList > .mainListBox > .hot > .list > .noBorder_l {
+    border-left: none;
+}
+#mainBody > .bodyMainList > .mainListBox > .hot > .list > .pic > img {
+    background: #fff;
+    vertical-align: middle;
+    display: inline-block;
+}
+#mainBody > .cl_marginBottom{
+    margin-bottom: 0;
+}
+#mainBody > .cl_marginBottom > .itemBox > .itemCont {
+    height: 100%;
+}
+/* 尾部 */
+.commitmentWrap {
+	background: #fff;
+    border-top: 1px solid #eaeaea;
+}
+.commitmentBox {
+    width: 1100px;
+    margin: 0 auto;
+}
+.commitmentBox > .cmm {
+    padding: 49px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.cmm_cont > .cont_item {
+    float: left;
+    width: 233px;
+    margin-left: 42px;
+}
+.cont_item > .item_icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid #d6d6d6;
+    text-align: center;
+    line-height: 44px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    margin-right: 12px;
+}
+.cont_item > .item_tit {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    line-height: 22px;
+}
+.cont_item > .desc {
+    font-size: 14px;
+    display: block;
+    line-height: 22px;
+}
+.commitmentBox > .contact {
+    padding: 45px 0 90px;
+}
+.contact_list > li {
+    float: left;
+    padding: 0 0 0 21px;
+    height: 128px;
+    width: 110px;
+}
+.contact_list > .first {
+    width: 218px;
+    padding-right: 40px;
+    padding-left: 0;
+}
+.contact_list > .first > .logokaola {
+    display: block;
+    width: 220px;
+    height: 43px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    outline: none;
+    cursor: pointer;
+    background: url(../images/log/log.png) no-repeat;
+}
+.contact_list > .first > .follow {
+    height: 32px;
+}
+.contact_list > .first > .follow > span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.contact_list > .first > .follow > .item {
+    position: relative;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contact_list > .first > .follow > .item > .weibo {
+    display: inline-block;  
+    width: 32px;
+    height: 32px;
+    background: url(../images/foot/1.png) no-repeat center;
+}
+.contact_list > .first > .follow > .item > .weixin {
+    display: inline-block;  
+    width: 32px;
+    height: 32px;
+    background: url(../images/foot/2.png) no-repeat center;
+}
+.contact_list > .first > .follow > .item > .yixin {
+    display: inline-block;  
+    width: 32px;
+    height: 32px;
+    background: url(../images/foot/3.png) no-repeat center;
+}
+.contact_list > .bd_none {
+    border: none;
+}
+.contact_list > li > dl > dt {
+    margin: -4px 0 10px;
+}
+.contact_list > li > dl > dt > span {
+    font-size: 18px;
+    font-weight: normal;
+}
+.contact_list > li > dl > dd {
+    color: #333;
+    cursor: pointer;
+    line-height: 29px;
+}
+.contact_list > .last {
+    margin-left: 10px;
+}
+.contact_list > .item {
+    width: 108px;
+    padding: 0;
+    text-align: center;
+    float: left;
+}
+/* 最底部 */
+.aboutWrap {
+	position: relative;
+    padding: 20px 0;
+    background: #333;
+    line-height: 26px;
+    text-align: center;
+    color: #c2c2c2;
+}
+.aboutWrap > a {
+    color: #c2c2c2;
+}
+.aboutWrap > .licence {
+    margin-left: 20px;
+}
+.aboutWrap > .licence > a {
+    color: #c2c2c2;
+}
+.aboutWrap > a > img {
+    margin-top: -2px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.aboutWrap > a > span {
+    margin: 0px 0px 0px 5px;
+}
+#testify {
+    text-align: center;
+}
+#testify > a > img {
+    height: 30px;
+    margin: 5px 15px 0 0;
+}

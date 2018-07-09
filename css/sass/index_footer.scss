@@ -1,0 +1,157 @@
+.footer_tem {
+    /* 尾部 */
+    .commitmentWrap {
+        background: #fff;
+        border-top: 1px solid #eaeaea;
+        .commitmentBox {
+            width: 1100px;
+            margin: 0 auto;
+            .cmm {
+                padding: 49px 0;
+                border-bottom: 1px solid #eaeaea;
+                .cont_item {
+                    float: left;
+                    width: 233px;
+                    margin-left: 42px;
+                    .item_icon {
+                        width: 44px;
+                        height: 44px;
+                        border-radius: 50%;
+                        border: 2px solid #d6d6d6;
+                        text-align: center;
+                        line-height: 44px;
+                        font-size: 20px;
+                        font-weight: bold;
+                        display: inline-block;
+                        float: left;
+                        margin-right: 12px;
+                    }
+                    .item_tit {
+                        font-size: 18px;
+                        font-weight: bold;
+                        display: block;
+                        line-height: 22px;
+                    }
+                    .desc {
+                        font-size: 14px;
+                        display: block;
+                        line-height: 22px;
+                    }
+                }
+            }
+            .contact {
+                padding: 45px 0 90px;
+                .contact_list > li {
+                    float: left;
+                    padding: 0 0 0 21px;
+                    height: 128px;
+                    width: 110px;
+                }
+                .contact_list > .first {
+                    width: 218px;
+                    padding-right: 40px;
+                    padding-left: 0;
+                   .logokaola {
+                        display: block;
+                        width: 220px;
+                        height: 43px;
+                        line-height: 45px;
+                        margin-bottom: 20px;
+                        outline: none;
+                        cursor: pointer;
+                        background: url(../images/log/log.png) no-repeat;
+                    }
+                   .follow {
+                        height: 32px;
+                        span {
+                             display: inline-block;
+                             vertical-align: middle;
+                         }
+                        .item {
+                             position: relative;
+                             margin-left: 10px;
+                             cursor: pointer;
+                             display: inline-block;
+                             vertical-align: middle;
+                             .weibo {
+                                  display: inline-block;  
+                                  width: 32px;
+                                  height: 32px;
+                                  background: url(../images/foot/1.png) no-repeat center;
+                              }
+                             .weixin {
+                                  display: inline-block;  
+                                  width: 32px;
+                                  height: 32px;
+                                  background: url(../images/foot/2.png) no-repeat center;
+                              }
+                             .yixin {
+                                  display: inline-block;  
+                                  width: 32px;
+                                  height: 32px;
+                                  background: url(../images/foot/3.png) no-repeat center;
+                              }
+                         }
+                    }
+                }
+                .contact_list > .bd_none {
+                    border: none;
+                }
+                .contact_list > li > dl > dt {
+                    margin: -4px 0 10px;
+                    span {
+                        font-size: 18px;
+                        font-weight: normal;
+                    }
+                }
+                .contact_list > li > dl > dd {
+                    color: #333;
+                    cursor: pointer;
+                    line-height: 29px;
+                }
+                .contact_list > .last {
+                    margin-left: 10px;
+                }
+                .contact_list > .item {
+                    width: 108px;
+                    padding: 0;
+                    text-align: center;
+                    float: left;
+                }
+            }
+        }
+    }
+    /* 最底部 */
+    .aboutWrap {
+        position: relative;
+        padding: 20px 0;
+        background: #333;
+        line-height: 26px;
+        text-align: center;
+        color: #c2c2c2;
+        a {
+            color: #c2c2c2;
+        }
+        .licence {
+            margin-left: 20px;
+            a {
+                color: #c2c2c2;
+                img {
+                    margin-top: -2px;
+                    vertical-align: middle;
+                    display: inline-block;
+                }
+                span {
+                    margin: 0px 0px 0px 5px;
+                }
+            }
+        }
+        #testify {
+            text-align: center;
+        }
+        #testify > a > img {
+            height: 30px;
+            margin: 5px 15px 0 0;
+        }
+    }
+}
