@@ -668,3 +668,254 @@
         .details .content .details_box .cont_box .btns .collect .demo_case-shoucang {
           margin-right: 5px;
           color: #e31436; }
+
+.headBuy {
+  /* 顶部导航 */
+  /* 头部搜索 */ }
+  .headBuy #topNavWrap {
+    background: #000;
+    border-bottom: 1px solid #ededee;
+    color: #999; }
+    .headBuy #topNavWrap #topNav {
+      height: 30px;
+      line-height: 30px; }
+    .headBuy #topNavWrap #topNav_L > .login {
+      margin-left: 16px; }
+    .headBuy #topNavWrap #topNav_L > .interval {
+      padding: 0 10px; }
+    .headBuy #topNavWrap #topNav_L2 > a {
+      padding-left: 30px; }
+    .headBuy #topNavWrap #topNavRight > li {
+      float: left; }
+      .headBuy #topNavWrap #topNavRight > li a {
+        padding: 0 14px 0 8px; }
+      .headBuy #topNavWrap #topNavRight > li .arrBox {
+        position: relative;
+        z-index: 202;
+        border: 1px solid transparent;
+        left: -3px;
+        top: -1px; }
+        .headBuy #topNavWrap #topNavRight > li .arrBox a {
+          position: relative;
+          zoom: 1;
+          padding: 0 24px 0 16px !important; }
+        .headBuy #topNavWrap #topNavRight > li .arrBox .arr {
+          position: absolute;
+          right: 14px;
+          top: 50%;
+          margin-top: -2px;
+          width: 0;
+          height: 0;
+          font-size: 0;
+          line-height: 0;
+          border-color: #999 transparent transparent;
+          border-style: solid dashed dashed;
+          border-width: 4px 4px 0;
+          transition: transform 0.2s ease-in; }
+  .headBuy #docHeadWrap {
+    background: #fff; }
+    .headBuy #docHeadWrap #docHead {
+      position: relative;
+      height: 100px; }
+      .headBuy #docHeadWrap #docHead .logo {
+        position: absolute;
+        left: 0;
+        top: 20px;
+        width: 330px;
+        height: 65px;
+        display: block;
+        outline: none;
+        cursor: pointer;
+        background: url(../images/log/log.png) no-repeat left center; }
+
+.footerBuy {
+  /* 最底部 */ }
+  .footerBuy .aboutWrap {
+    position: relative;
+    padding: 20px 0;
+    background: #333;
+    line-height: 26px;
+    text-align: center;
+    color: #c2c2c2; }
+    .footerBuy .aboutWrap a {
+      color: #c2c2c2; }
+    .footerBuy .aboutWrap .licence {
+      margin-left: 20px; }
+      .footerBuy .aboutWrap .licence a {
+        color: #c2c2c2; }
+        .footerBuy .aboutWrap .licence a img {
+          margin-top: -2px;
+          vertical-align: middle;
+          display: inline-block; }
+        .footerBuy .aboutWrap .licence a span {
+          margin: 0px 0px 0px 5px; }
+    .footerBuy .aboutWrap #testify {
+      text-align: center; }
+    .footerBuy .aboutWrap #testify > a > img {
+      height: 30px;
+      margin: 5px 15px 0 0; }
+
+.shopping .content .cardBox .cardTile {
+  font-size: 14px;
+  color: #333;
+  line-height: 32px;
+  margin-top: 15px; }
+  .shopping .content .cardBox .cardTile .mycard {
+    font-weight: bold; }
+  .shopping .content .cardBox .cardTile .siteBox {
+    font-size: 12px;
+    margin-left: 10px; }
+    .shopping .content .cardBox .cardTile .siteBox .btn-group .btn_h {
+      height: 25px;
+      padding: 0 10px;
+      position: relative;
+      top: -3px; }
+  .shopping .content .cardBox .cardTile .freight {
+    font-size: 12px; }
+    .shopping .content .cardBox .cardTile .freight .fre_icon {
+      background: url(../images/shopping/goddnessAlert.png) no-repeat;
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+      background-size: 100%;
+      margin-right: 10px; }
+
+.shopping .content .cardBox .cardCont #goBtn a {
+  display: inline-block;
+  position: absolute;
+  height: 50px;
+  right: -1px;
+  top: -1px;
+  bottom: 0;
+  width: 120px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #e31436;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 50px;
+  text-decoration: none; }
+
+.shopping .content .cardBox .cardCont .row {
+  border: 1px solid #eaeaea;
+  line-height: 50px; }
+  .shopping .content .cardBox .cardCont .row #pad {
+    padding: 0 10px; }
+  .shopping .content .cardBox .cardCont .row .col-md-2:nth-child(1) {
+    width: 134px; }
+  .shopping .content .cardBox .cardCont .row .col-md-2:nth-child(2) {
+    width: 422px; }
+  .shopping .content .cardBox .cardCont .row .col-md-2:nth-child(3) {
+    width: 150px; }
+  .shopping .content .cardBox .cardCont .row .col-md-2:nth-child(4) {
+    width: 147px; }
+  .shopping .content .cardBox .cardCont .row .col-md-2:nth-child(5) {
+    width: 128px; }
+  .shopping .content .cardBox .cardCont .row .col-md-2:nth-child(6) {
+    width: 93px;
+    padding: 0 7px;
+    text-align: left; }
+  .shopping .content .cardBox .cardCont .row .col-md-4 {
+    width: 200px; }
+
+.shopping .content .cardBox .cardCont .shop .shopNameBox {
+  padding: 20px 0; }
+  .shopping .content .cardBox .cardCont .shop .shopNameBox .check {
+    display: inline-block;
+    margin-left: 10px; }
+
+.shopping .content .cardBox .cardCont #shopItem {
+  height: 120px;
+  line-height: 120px; }
+  .shopping .content .cardBox .cardCont #shopItem #itemCont {
+    height: 36px;
+    line-height: 18px;
+    margin-top: -2px;
+    width: 220px; }
+
+.shopping .content .cardBox .shopBox {
+  margin-bottom: 20px;
+  padding: 20px 0; }
+  .shopping .content .cardBox .shopBox .shopTop {
+    padding: 10px;
+    font-size: 14px;
+    color: #333; }
+    .shopping .content .cardBox .shopBox .shopTop span {
+      margin-left: 15px; }
+  .shopping .content .cardBox .shopBox .shopCont {
+    border: 1px solid #eaeaea;
+    padding: 20px 0; }
+    .shopping .content .cardBox .shopBox .shopCont .checkbox {
+      width: 37px;
+      vertical-align: middle; }
+    .shopping .content .cardBox .shopBox .shopCont .intro {
+      margin-left: 15px;
+      width: 220px; }
+      .shopping .content .cardBox .shopBox .shopCont .intro .intro_t {
+        display: block;
+        height: 36px;
+        line-height: 18px;
+        overflow: hidden;
+        margin-top: -2px;
+        color: #333;
+        font-size: 12px;
+        padding-right: 30px; }
+      .shopping .content .cardBox .shopBox .shopCont .intro .intro_b {
+        height: 36px;
+        line-height: 18px;
+        overflow: hidden;
+        margin-top: -2px;
+        padding-right: 30px;
+        color: #999;
+        height: 20px;
+        padding-top: 2px;
+        margin-bottom: 2px; }
+    .shopping .content .cardBox .shopBox .shopCont .color {
+      width: 218px; }
+      .shopping .content .cardBox .shopBox .shopCont .color i {
+        color: #999; }
+    .shopping .content .cardBox .shopBox .shopCont .price {
+      width: 120px; }
+      .shopping .content .cardBox .shopBox .shopCont .price del {
+        color: #999; }
+      .shopping .content .cardBox .shopBox .shopCont .price p {
+        font-weight: bold;
+        font-size: 14px;
+        color: #333; }
+    .shopping .content .cardBox .shopBox .shopCont .numBtn {
+      width: 103px;
+      text-align: center; }
+      .shopping .content .cardBox .shopBox .shopCont .numBtn .num_sub, .shopping .content .cardBox .shopBox .shopCont .numBtn .num_add {
+        display: block;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+        border: 1px solid #bcbcbc; }
+      .shopping .content .cardBox .shopBox .shopCont .numBtn input {
+        width: 45px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        border: #bcbcbc 1px solid;
+        border-width: 1px 0; }
+    .shopping .content .cardBox .shopBox .shopCont .money {
+      width: 172px; }
+      .shopping .content .cardBox .shopBox .shopCont .money span {
+        display: block;
+        width: 172px;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center; }
+    .shopping .content .cardBox .shopBox .shopCont .btns {
+      width: 93px;
+      padding: 0 7px;
+      text-align: left; }
+      .shopping .content .cardBox .shopBox .shopCont .btns a {
+        display: block;
+        color: #333;
+        cursor: pointer;
+        line-height: 25px;
+        height: 25px; }

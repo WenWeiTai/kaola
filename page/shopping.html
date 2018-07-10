@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body style="background: #fff; overflow-x: hidden">
+    <div class="shopping">
+        <!-- 头部 -->
+        <iframe name="head" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"  width="100%" height="131px" src="headBuy.html"></iframe>
+        <!-- 主体 -->
+        <div class="main content">
+            <div class="cardBox">
+                <h3 class="cardTile">
+                    <span class="mycard">我的购物车&ensp;1</span>
+                    <span class="siteBox fr">
+                        配送至
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle btn_h" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    广东/深圳市/龙华区 <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>    
+                    </span>
+                    <span class="freight fr">
+                        <i class="fre_icon"></i>考拉自营商品已免运费
+                        <span class="around"><a href="##"><i class="around_icon"></i>再逛逛></a></span>
+                    </span>
+                </h3>
+                <div class="cardCont">
+                    <div class="row main">
+                        <div class="col-md-2" id="pad">
+                            <label>
+                                <input type="checkbox">
+                                全选
+                            </label>
+                        </div>
+                        <div class="col-md-2" id="pad">商品信息</div>
+                        <div class="col-md-2" id="pad">单价(元)</div>
+                        <div class="col-md-2" id="pad">数量</div>
+                        <div class="col-md-2" id="pad">金额(元)</div>
+                        <div class="col-md-2" id="pad">操作</div>
+                    </div>
+                    <!-- 商品模板 -->
+                    <div class="shopBox main">
+                        <div class="shopTop">
+                            <label>
+                                <input type="checkbox" name="" id="">
+                                <span>自营保税仓</span>
+                            </label>
+                        </div>
+                        <div class="shopCont clearfix">
+                            <input type="checkbox" class="checkbox fl">
+                            <img class="shopImg fl" src="../images/shopping/1chk4p0001_800_800.jpg" alt="">
+                            <div class="intro fl">
+                                <b class="intro_t">【18春夏新款】BALLY 巴利 SHIFF系列 男士35MM压纹针扣式小牛皮可调节/双面</b>
+                                <p class="intro_b">不支持7天无理由退货</p>
+                            </div>
+                            <div class="color fl"><i>颜色：黑色</i></div>
+                            <div class="price fl">
+                                <del>2390.00</del>
+                                <p>1590.00</p>
+                            </div>
+                            <div class="numBtn fl">
+                                <a href="##" class="num_sub fl">-</a>
+                                <input type="text" value="1" class="fl">
+                                <a href="##" class="num_add fl">+</a>
+                            </div>
+                            <div class="money fl">
+                                <span>4797.00</span>
+                            </div>
+                            <div class="btns fl">
+                                <a href="##" class="del_shop">删除</a>
+                                <a href="##">移入我的收藏</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shopBox main">
+                        <div class="shopTop">
+                            <label>
+                                <input type="checkbox" name="" id="">
+                                <span>自营保税仓</span>
+                            </label>
+                        </div>
+                        <div class="shopCont clearfix">
+                            <input type="checkbox" class="checkbox fl">
+                            <img class="shopImg fl" src="../images/shopping/1chk4p0001_800_800.jpg" alt="">
+                            <div class="intro fl">
+                                <b class="intro_t">【18春夏新款】BALLY 巴利 SHIFF系列 男士35MM压纹针扣式小牛皮可调节/双面</b>
+                                <p class="intro_b">不支持7天无理由退货</p>
+                            </div>
+                            <div class="color fl"><i>颜色：黑色</i></div>
+                            <div class="price fl">
+                                <del>2390.00</del>
+                                <p>1590.00</p>
+                            </div>
+                            <div class="numBtn fl">
+                                <a href="##" class="num_sub fl">-</a>
+                                <input type="text" value="1" class="fl">
+                                <a href="##" class="num_add fl">+</a>
+                            </div>
+                            <div class="money fl">
+                                <span>4797.00</span>
+                            </div>
+                            <div class="btns fl">
+                                <a href="##" class="del_shop">删除</a>
+                                <a href="##">移入我的收藏</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row main">
+                        <div class="col-md-2" id="pad">
+                            <label>
+                                <input type="checkbox">
+                                全选
+                            </label>
+                        </div>
+                        <div class="col-md-2" id="pad">删除选中商品</div>
+                        <div class="col-md-2" id="pad">已选商品 0 件 </div>
+                        <div class="col-md-4" id="pad">总价(不含运费)：￥0.00</div>
+                        <div class="col-md-2" id="goBtn">
+                            <a href="##">去结算</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 尾部 -->
+    <iframe name="foot" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"  width="100%" height="163px" src="footerBuy.html"></iframe>
+</body>
+</html>

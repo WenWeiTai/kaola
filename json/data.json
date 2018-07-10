@@ -1,0 +1,36 @@
+{
+    "xsg" : [
+        {
+            "img" : "../images/index_Img/xsg/xsg-1.jpg",
+            "title" : "经典透气 运动休闲",
+            "intro" : "阿迪达斯Adidas 黑白大LOGO热巴同款男女情侣经典透气长青经典圆领休闲运动T恤短袖",
+            "price" : 93,
+            "del" : 129,
+            "inventory" : 2361
+        },
+        {
+            "img" : "../images/index_Img/xsg/xsg-2.jpg",
+            "title" : "帮助肌肤重现紧致细滑",
+            "intro" : "OLAY 玉兰油 新生塑颜金纯活能水150毫升  补水保湿紧致滋润大红瓶爽肤水",
+            "price" : 133,
+            "del" : 240,
+            "inventory" : 500
+        },
+        {
+            "img" : "../images/index_Img/xsg/xsg-3.jpg",
+            "title" : "时尚快人一步",
+            "intro" : "Champion 冠军 2018夏季新品 日系男士 纯棉舒适休闲短袖T恤",
+            "price" : 269,
+            "del" : 449,
+            "inventory" : 3
+        },
+        {
+            "img" : "../images/index_Img/xsg/xsg-4.jpg",
+            "title" : "澳洲直邮 雪地靴品牌单鞋",
+            "intro" : "【澳洲直邮】Ozwear雪地靴品牌经典款女士羊皮豆豆鞋内置气垫 帆布鞋",
+            "price" : 246,
+            "del" : 980,
+            "inventory" : 449
+        }
+    ]
+}
