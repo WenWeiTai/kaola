@@ -1,0 +1,1 @@
+$('#footerCommon').load('../page/footerCommon.html')

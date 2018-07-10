@@ -1,0 +1,1 @@
+$('#head_shop').load('../page/head_shop.html')

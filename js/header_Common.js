@@ -1,0 +1,1 @@
+$("#header_Common").load('../page/header_Common.html')
