@@ -14,6 +14,7 @@ var CheckIpn = (function(){
                     
                 }else{
                     $('.warn').html('手机号码输入有误').css('color','red')
+                    $('#phonecheck').attr("placeholder","手机输入有误，请重新输入")
                 }
             })
             $('#checkpsw').on('blur',function () {
@@ -22,6 +23,7 @@ var CheckIpn = (function(){
                     $('.warn').html('密码通过').css('color','green')
                 }else{
                     $('.warn').html('密码8~12位,字母开头').css('color','red')
+                    $('#checkpsw').attr("placeholder","密码输入有误，请重新输入")
                 }
             })
             $('#pswAgain').on('blur',function () {
@@ -30,11 +32,23 @@ var CheckIpn = (function(){
                 if(val == val_psw && val != ''){
                     $('.warn').html('密码通过').css('color','green')
                 }else {
-                    $('.warn').html('密码不一致，请重新输入').css('color','red')    
+                    $('.warn').html('密码不一致，请重新输入').css('color','red')
+                    $('#pswAgain').attr("placeholder","两次密码不一致，请重新输入")
                 }
             })
+            $('#btn_Check').on('click',function() {
+                $('#btn_Check').html(checkStr(4))
+            })
+            $('#check_Code').on('blur',function(){
+                if($('#check_Code').val() ==  $('#btn_Check').html() && $('#check_Code').val() != ''){
+                    $('.warn').html('验证码输入正确').css('color','green')
+                }else{
+                    $('.warn').html('验证码输入有误').css('color','red')
+                    $('#phonecheck').attr("placeholder","验证码输入有误，请重新输入")
+                } 
+            })
             $('#bgCol').on('click',function(){
-                if(reg_phone.test($('#phonecheck').val()) == true && reg_psw.test($('#checkpsw').val()) == true && $('#pswAgain').val() == $('#checkpsw').val()){
+                if(reg_phone.test($('#phonecheck').val()) == true && reg_psw.test($('#checkpsw').val()) == true && $('#pswAgain').val() == $('#checkpsw').val() && $('#check_Code').val() ==  $('#btn_Check').html() && $('#check_Code').val() != ''){
                     var params = {
                         phone : $('#phonecheck').val(),
                         password : $('#checkpsw').val()
@@ -42,6 +56,7 @@ var CheckIpn = (function(){
                     $.post('../php/login.php',params,function(json){
                         json = JSON.parse(json)
                         if(json.code == 200){
+                            alert('恭喜您！！！注册成功,点击“确定”返回登录界面')
                             location.href =  "../page/gologin.html"
                         }else{
                             alert(json.msg)
@@ -55,3 +70,30 @@ var CheckIpn = (function(){
     }
 })()
 CheckIpn.init()
+
+
+
+
+//生成字母+数字验证码
+//生成验证码
+function checkCode(n){
+    var n = n || 6
+    var str = ''
+    while(str.length < n){
+        var num = parseInt(47 + Math.random()*(123-47))
+        if((num > 47 && num < 58) || (num > 64 && num < 91) || (num > 96 && num < 123)){
+            str += String.fromCharCode(num)
+        }
+    }
+    return str
+}
+//判断验证码
+function checkStr(n){
+    var newStr = checkCode(n)
+    for(var i = 0; i < newStr.length; i++){
+        if(!(isNaN(Number(newStr[i])))){
+            return newStr
+        }
+    }
+    return checkStr(n)
+}
