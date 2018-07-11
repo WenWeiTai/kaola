@@ -34,29 +34,33 @@
                         </span>
                     </div>
                     <div class="login_form">
-                        <form>
+                        <form class="checkInp">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="phoneNum" placeholder="请输入手机号">
+                                <input type="text" class="form-control" id="phonecheck" placeholder="请输入手机号">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="_password" placeholder="请输入密码">
+                                <input type="password" class="form-control" 
+                                id="checkpsw" placeholder="请输入密码">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="_password" placeholder="确认密码">
+                                <input type="password" class="form-control"
+                                id="pswAgain" placeholder="确认密码">
                             </div>
                             <div class="form-group clearfix" id="checkbox">
                                 <input type="txt" class="form-control fl" id="check_Code" placeholder="请输入验证码">
+                                
                                 <button type="button" class="btn btn-default fr" id="btn_Check">1a9d
                                     </button>
+                                <p class="warn"></p>
                             </div>
                             <div class="checkbox">
                                 <label>
-                                <input type="checkbox">我同意
+                                <input type="checkbox" id="checkBox">我同意
                                 <a href="##">《服务条款》</a>和
                                 <a href="##">《网易隐私政策》</a>
                                 </label>
                             </div>
-                            <button type="submit" class="btn btn-danger btn-block" id="bgCol">注册</button>
+                            <a href="##" class="btn btn-danger btn-block" id="bgCol">注册</a>
                         </form>
                     </div>
                 </div>
@@ -102,3 +106,5 @@
 </div>
 </body>
 </html>
+<script src="../js/jquery.js"></script>
+<script src="../js/login.js"></script>

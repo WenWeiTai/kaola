@@ -1,0 +1,137 @@
+.main {
+    width: 1000px;
+}
+/* 头部 */
+#h_wrap {
+    border-bottom: 1px solid #e8e8ea;
+    position: relative;
+    height: 100px;
+    background: #fff;
+}
+.head {
+    position: relative;
+}
+.head > .logo {
+    display: inline-block;
+    width: 330px;
+    height: 65px;
+    line-height: 65px;
+    background: url(../images/log/log.png)no-repeat;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+.head > .head_r {
+    width: 180px;
+}
+.head > .head_r > .img_r{
+    position: absolute;
+    left: 458px;
+    height: 100px;
+    width: 504px;
+    background: url(../images/log/login_head.jpg) no-repeat;
+}
+/* 主体 */
+#main_wrap {
+    background: #f8f8f8;
+}
+.content {
+    position: relative;
+    height: 520px;
+    margin: 0 auto;
+}
+.content > img {
+    position: absolute;
+    left: 10px;
+    top: 154px;
+    width: 400px;
+    height: 203px;
+}
+.content > .main_r {
+    position: absolute;
+    right: 40px;
+    top: 48px;
+    width: 350px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+}
+.content > .main_r > .login_title {
+    position: relative;
+    /* width: 270px; */
+    padding: 0 40px;
+    height: 52px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    line-height: 52px;
+    color: #333;
+}
+.content > .main_r > .login_title > .txt {
+    color: #e31436;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 52px;
+}
+.content > .main_r > .login_title > .goLogin {
+    font-size: 12px;
+    cursor: pointer;
+    line-height: 52px;
+    color: #333;
+}
+.content > .main_r > .login_title > .goLogin > a {
+    color: #51b8f1;
+}
+.login_form form {
+    padding: 30px;
+    
+}
+.login_form form .form-group {
+    margin-bottom: 30px;
+}
+#checkbox {
+    width: 100%;
+}
+#check_Code {
+    width:70%;
+    margin-right: 10px;
+}
+#btn_Check {
+    width: 25%;
+}
+#bgCol {
+    background-color: #e31436;
+}
+/* 尾部 */
+#f_wrap {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+.about {
+    position: relative;
+    color: #666;
+    background: #fff;
+    padding: 20px 0;
+    line-height: 26px;
+    text-align: center;
+}
+.about a {
+    text-decoration: none;
+    color: #666;
+}
+.about > .sep {
+    margin: 0 20px;
+}
+.about > .licence {
+    margin: 0 20px;
+}
+.about span {
+    font-size: 12px;
+    color: #999;
+}
+#testify > a > img {
+    height: 30px;
+    margin: 5px 15px 0 0;
+}
