@@ -485,7 +485,8 @@
 .details .content .details_box {
   margin: 20px 0; }
   .details .content .details_box .showImg_box {
-    width: 400px; }
+    width: 400px;
+    position: relative; }
     .details .content .details_box .showImg_box .showImg {
       position: relative;
       top: 0;
@@ -493,8 +494,15 @@
       border: 1px solid #eee;
       width: 400px;
       height: 400px;
-      overflow: hidden;
       cursor: crosshair; }
+      .details .content .details_box .showImg_box .showImg .glass {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 200px;
+        height: 200px;
+        background: rgba(0, 0, 0, 0.2);
+        display: none; }
       .details .content .details_box .showImg_box .showImg .big_pic {
         width: 400px;
         height: 400px;
@@ -621,7 +629,6 @@
       display: inline;
       background-color: #fff;
       margin-right: 7px;
-      position: relative;
       height: 30px;
       white-space: nowrap;
       height: 58px; }
@@ -849,6 +856,10 @@
     .shopping .content .cardBox .shopBox .shopCont .checkbox {
       width: 37px;
       vertical-align: middle; }
+    .shopping .content .cardBox .shopBox .shopCont .shopImg {
+      width: 80px;
+      height: 80px;
+      display: block; }
     .shopping .content .cardBox .shopBox .shopCont .intro {
       margin-left: 15px;
       width: 220px; }

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_733720_iilc4ti12e.css">
+    <!-- <link rel="stylesheet" href="//at.alicdn.com/t/font_733720_iilc4ti12e.css"> -->
     <style>
         body {
             background: #fff;
@@ -22,9 +22,13 @@
         <!-- 主体 -->
         <div class="main content">
             <div class="details_box clearfix">
-                <div class="showImg_box fl">
+               <!--  <div class="showImg_box fl">
                     <div class="showImg">
+                        <div class="glass"></div>
                         <img class="big_pic" src="../images/details/1.jpg" alt="">
+                    </div>
+                    <div class="glass_rBox">
+                        <img src="../images/details/1.jpg" alt="">
                     </div>
                     <ul class="small_pic">
                         <li class="fl">
@@ -128,8 +132,7 @@
                         <a href="##" class="btn_join"><i class="demo_case-gouwucheman Down_arrow"></i>加入购物车</a> 
                         <a href="##" class="collect"><i class="demo_case-shoucang Down_arrow"></i>收藏</a>
                     </li>
-                </ul>
-
+                </ul> -->
             </div>
         </div>
         <!-- 尾部公共 -->
@@ -140,3 +143,35 @@
 <script src="../js/jquery.js"></script>
 <script src="../js/header_Common.js"></script>
 <script src="../js/footerCommon.js"></script>
+<script src="../js/details.js"></script>
+<!-- <script>
+    var glassMove = (function () {
+        return {
+            init : function () {
+                this.event()
+            },
+            event : function () {
+                var bigBox = document.querySelector('.showImg')
+                var moveBox = document.querySelector('.glass')
+                bigBox.onmouseover = function () {
+                    moveBox.style.display = "block"
+                    this.onmousemove = function(e) {
+                       e = e || event
+                       var l = e.clientX - this.offsetLeft - moveBox.offsetWidth / 2
+                       var t = e.clientY - this.offsetTop - moveBox.offsetHeight / 2
+                       var maxL = this.offsetWidth - moveBox.offsetWidth
+                       var maxT = this.offsetHeight - moveBox.offsetHeight
+                       l = l > maxL ? maxL : (l < 0 ? 0 : l)
+                       t = t > maxT ? maxT : (t < 0 ? 0 : t)
+                       moveBox.style.left = l + 'px'
+                       moveBox.style.top = t + 'px'
+                    }
+                }
+                bigBox.onmouseout = function () {
+                    moveBox.style.display = "none"
+                }
+            }
+        }
+    })()
+    glassMove.init()
+</script> -->

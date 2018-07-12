@@ -3,20 +3,19 @@
 //今日限时购
 function XSG(){
     this.getJson()
-    this.ul = $('.bodyTopContBox_l')
+	this.ul = $('.bodyTopContBox_l')
 }
 $.extend (XSG.prototype,{
     getJson : function () {
         var _this = this
         $.ajax({
             url : '../json/data.json',
-            dataType : 'json',
+			dataType : 'json',
             success : function (json) {
-                // console.log(json)
                 var arr = [];
                 var data = json.xsg
                 for(var i = 0; i < json.xsg.length; i++){
-                    var str = `<li class="bodyTopContBox_l__list">
+                    var str = `<li class="bodyTopContBox_l__list"">
                                     <a href="##" class="pic">
                                          <img src="${data[i].img}">
                                     </a>
@@ -32,12 +31,13 @@ $.extend (XSG.prototype,{
                                         <p class="surplus">
                                             剩余${data[i].inventory}件
                                         </p>
-                                        <a href="${data[i].url}" class="btn">立即抢购</a>
+                                        <a href="##" class="btn ljqg"  data-id="${data[i].id}">立即抢购</a>
                                     </div>
                                 </li>`
                     arr.push(str)
-                }               
-                _this.ul.html(arr.join(''))
+				}
+				_this.ul.html(arr.join(''))
+				           
             }
         })
     }
